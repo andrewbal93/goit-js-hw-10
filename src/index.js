@@ -12,7 +12,9 @@ Notify.init({
 const select = document.querySelector('.breed-select');
 const loader = document.querySelector('.loader');
 const catInfoCard = document.querySelector('.cat-info');
+const errText = document.querySelector('.error');
 
+errText.style.display = 'none';
 select.style.display = 'none';
 catInfoCard.style.display = 'none';
 
