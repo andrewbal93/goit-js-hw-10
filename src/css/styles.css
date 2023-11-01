@@ -1,0 +1,37 @@
+.cat-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 1150px) {
+  .cat-info {
+    flex-wrap: nowrap;
+  }
+}
+.cat-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+@media only screen and (min-width: 768px) {
+  .cat-text {
+    display: block;
+  }
+}
+.cat-img {
+  margin-top: 30px;
+  border-radius: 30px;
+  max-width: 300px;
+}
+@media only screen and (min-width: 1150px) {
+  .cat-img {
+    max-width: 500px;
+  }
+}
+.cat-temperament-span {
+  font-weight: bold;
+}
